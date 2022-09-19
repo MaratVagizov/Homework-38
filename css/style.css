@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.container {
+    width: 1728px;
+    height: 1747px;
+    margin: 0 auto;
+    /* background-color: royalblue; */
+    /* text-align: center; */
+    padding: 76px 104px;
+    border: 1px solid #000000;
+    /* display: flex; */
+}
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.top-txt {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+}
+
+.btns {
+    margin: 25px 0 65px 502px;
+}
+
+.btn {
+    width: 254px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.btn-1 {
+    margin-right: 8px;
+}
+
+.box_1 {
+    width: 364px;
+    height: 199px;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_2 {
+    width: 364px;
+    height: 275px;
+    padding: 30px;
+    background-color: black;
+}
+
+.img {
+    width: 115px;
+    height: 161px;
+}
+
+.txt_1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.txt_2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.56);
+    margin: 11px 0 16px 0;
+}
+
+.icon_box_tot {
+    display: flex;
+}
+
+.icon_box {
+    display: flex;
+    align-items: center;
+    margin-right: 23px;
+}
+
+.icon_1 {
+    margin-right: 10px;
+    width: 8px;
+    height: 14.67px;
+}
+
+.icon_2 {
+    margin-right: 10px;
+    width: 12.21px;
+    height: 11.61px;
+}
+
+.icon_3 {
+    margin-right: 10px;
+    width: 12px;
+    height: 13.39px;
+}
+
+.icon_box_txt {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.button {
+    width: 305px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 30px;
+}
